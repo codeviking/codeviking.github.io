@@ -1,0 +1,113 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  min-height: 100%;
+  background: #18222f linear-gradient(#18222f, #0c1219, #000101);
+  background: #18222f -webkit-linear-gradient(#18222f, #0c1219, #000101);
+  background: #18222f -ms-linear-gradient(#18222f, #0c1219, #000101);
+  background: #18222f -o-linear-gradient(#18222f, #0c1219, #000101);
+  background: #18222f -moz-linear-gradient(#18222f, #0c1219, #000101);
+}
+
+body {
+  font-size: 125%;
+  font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+  color: #fff;
+  font-weight: 100;
+}
+
+h1, h2 {
+  margin: 0;
+  font-weight: 100;
+  margin: 0 0 40px;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+a {
+  text-decoration: underline;
+  color: #fff;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #4d7ebe;
+}
+
+#header {
+  max-width: 480px;
+  text-align: center;
+}
+
+#header,
+#main-content {
+  margin: 80px auto;
+}
+
+#header h2 {
+  margin: 0;
+}
+
+#header h1 {
+  margin: 0 0 20px;
+}
+
+#main-content {
+  max-width: 980px;
+}
+
+.content,
+.tooltip {
+  padding: 40px;
+  margin: 40px;
+}
+
+.tooltip {
+  position: relative;
+  background: #18222f;
+  border-radius: 20px;
+}
+
+.tooltip-pointer {
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: -20px;
+  left: 50%;
+  margin-left: -20px;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid #18222f;
+}
+
+.extra {
+  font-size: 0.8em;
+}
+
+.hotspot {
+  margin: 80px 0;
+}
+
+.hotspot h2 {
+  padding-bottom: 20px;
+  border-bottom: 4px solid #18222f;
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+}
