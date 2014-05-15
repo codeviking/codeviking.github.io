@@ -44,12 +44,17 @@ a:hover {
 }
 
 #header {
-  max-width: 480px;
   text-align: center;
 }
 
 #header,
-#main-content {
+#heart {
+  max-width: 480px;
+}
+
+#header,
+#main-content,
+#heart {
   margin: 80px auto;
 }
 
@@ -66,15 +71,24 @@ a:hover {
 }
 
 .content,
-.tooltip {
+.tooltip,
+#heart {
   padding: 40px;
+}
+
+.content,
+.tooltip {
   margin: 40px;
+}
+
+#heart,
+.tooltip {
+  background: #18222f;
+  border-radius: 20px;
 }
 
 .tooltip {
   position: relative;
-  background: #18222f;
-  border-radius: 20px;
 }
 
 .tooltip-pointer {
@@ -100,6 +114,51 @@ a:hover {
 .hotspot h2 {
   padding-bottom: 20px;
   border-bottom: 4px solid #18222f;
+}
+
+#heart {
+  text-align: center;
+  margin-bottom: 160px;
+}
+
+#heart h2 {
+  margin: 0;
+}
+
+#heart svg {
+  margin: 20px 0;
+  animation: beat 500ms infinite;
+  -webkit-animation: beat 1000ms infinite;
+}
+
+@keyframes beat {
+  0% {
+    transform: scale3d(1, 1, 1);
+    -webkit-transform: scale3d(1, 1, 1);
+  }
+  50% {
+    transform: scale3d(1.25, 1.25, 1.25);
+    -webkit-transform: scale3d(1.25, 1.25, 1.25);
+  }
+  100% {
+    transform: scale3d(1, 1, 1);
+    -webkit-transform: scale3d(1, 1, 1);
+  }
+}
+
+@-webkit-keyframes beat {
+  0% {
+    transform: scale3d(1, 1, 1);
+    -webkit-transform: scale3d(1, 1, 1);
+  }
+  50% {
+    transform: scale3d(1.25, 1.25, 1.25);
+    -webkit-transform: scale3d(1.25, 1.25, 1.25);
+  }
+  100% {
+    transform: scale3d(1, 1, 1);
+    -webkit-transform: scale3d(1, 1, 1);
+  }
 }
 
 @media screen and (max-width: 480px) {
