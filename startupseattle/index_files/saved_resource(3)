@@ -1,7 +1,0 @@
-zem_rp_recommendations_callback({
-  "data": {
-    "results": [], 
-    "tlb": "default_R"
-  }, 
-  "status": "ok"
-})
