@@ -1,0 +1,79 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  background: #fff;
+}
+
+body {
+  font-size: 125%;
+  font-family: "Noto Serif", serif;
+  max-width: 920px;
+  padding: 40px;
+}
+
+h1, h2 {
+  margin: 0 0 0.75em;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2.25em;
+}
+
+h2 {
+  font-size: 1.75em;
+  padding-bottom: 0.25em;
+  border-bottom: 1px solid #ccc;
+}
+
+h3 {
+  margin: 0;
+  font-size: 1.25em;
+}
+
+h4 {
+  margin: 0;
+  font-size: 1.15em;
+}
+
+address {
+  font-style: normal;
+}
+
+address h1 {
+  margin: 0;
+}
+
+section {
+  margin: 3em 0;
+}
+
+a[href] {
+  color: #3798d6;
+  text-decoration: none;
+}
+
+a[href]:hover {
+  color: #116194;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.experience {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.experience li {
+  margin: 3em 0;
+}
+
+.experience li:first-child {
+  margin-top: 0;
+}
