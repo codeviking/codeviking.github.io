@@ -12,6 +12,7 @@ body {
   font-family: "Noto Serif", serif;
   max-width: 920px;
   padding: 40px;
+  margin: 0 auto;
 }
 
 h1, h2 {
