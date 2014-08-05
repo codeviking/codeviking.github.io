@@ -1,0 +1,114 @@
+/*
+ * HotPads, Problem #1 Solution
+ * @author Sam Skjonsberg <sam@codeviking.net>
+ */
+
+/* Reset */
+
+html, body, div, a, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form,
+label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu,
+nav, section, time, mark, audio, video, details, summary {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+article, aside, figure, footer, header, nav, section, details, summary {
+  display: block;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* General */
+
+html {
+  background: #fff;
+}
+
+body {
+  font-size: 125%;
+  font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 0 auto;
+  color: #000;
+}
+
+h1, h2 {
+  margin: 0 0 0.75em;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2.25em;
+}
+
+h2 {
+  font-size: 1.75em;
+}
+
+/* Columns */
+
+.column-container {
+  position: relative;
+  padding: 0 200px 0 170px;
+}
+
+.column {
+  padding: 10px;
+}
+
+.column-right,
+.column-left {
+  position: absolute;
+  top: 0;
+}
+
+.column-left {
+  left: 0;
+}
+
+.column-right {
+  right: 0;
+}
+
+.column-170 {
+  width: 150px; /* 150 + 20 = 170 */
+}
+
+.column-min-350 {
+  min-width: 330px; /* 330 + 20 = 350 */
+}
+
+.column-200 {
+  width: 180px; /* 180 + 20 = 200 */
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 700px) { /* 180 + 330 + 150 = 700 */
+  .column-left,
+  .column-right {
+    position: static;
+  }
+
+  .column-170 {
+    width: 100%;
+  }
+
+  .column-200 {
+    width: 100%;
+  }
+
+  .column-container {
+    padding: 0;
+  }
+}
