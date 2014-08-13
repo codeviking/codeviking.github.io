@@ -81,6 +81,10 @@ a[href]:hover {
 
 @media print {
   body {
-    font-size: 100%;
+    font-size: 60%;
+  }
+
+  .experience li {
+    margin: 2.25em 0;
   }
 }
