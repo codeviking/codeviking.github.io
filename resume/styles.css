@@ -78,3 +78,9 @@ a[href]:hover {
 .experience li:first-child {
   margin-top: 0;
 }
+
+@media print {
+  body {
+    font-size: 100%;
+  }
+}
