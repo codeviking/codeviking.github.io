@@ -78,3 +78,13 @@ a[href]:hover {
 .experience li:first-child {
   margin-top: 0;
 }
+
+@media print {
+  body {
+    font-size: 60%;
+  }
+
+  .experience li {
+    margin: 2.25em 0;
+  }
+}
