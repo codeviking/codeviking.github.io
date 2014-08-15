@@ -1,8 +1,8 @@
 <!DOCTYPE html><html>
   <head>
-    <title>codeviking.net &#8212; fearlessly pillaging a website near you</title>
+    <title>{{ page.title }}</title>
     <meta charset=utf-8>
-    <meta name=description content="The digital home of Sam Skjonsberg">
+    <meta name=description content="{{ page.description }}">
     <meta name=viewport content="width=device-width,initial-scale=1">
     <link rel=stylesheet href="css/styles.css">
   </head>
@@ -18,6 +18,9 @@
       <p><a href="mailto:sam@codeviking.net?subject=Hey%20Viking!">sam@codeviking.net</a></p>
       <p><a href="http://www.linkedin.com/in/skone" target="_blank">http://www.linkedin.com/in/skone</a></p>
       <p><a href="/resume">Resume</a></p>
+    </div>
+    <div>
+      {{ content }}
     </div>
   </body>
 </html>

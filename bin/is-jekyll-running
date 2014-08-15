@@ -1,0 +1,8 @@
+#!/bin/bash
+source $(dirname $0)/.include
+
+if test ! -e $PIDFILE; then
+  exit 2
+fi
+
+kill -0 $(cat $PIDFILE) 2>/dev/null

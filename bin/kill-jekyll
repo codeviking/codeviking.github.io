@@ -1,0 +1,21 @@
+#!/bin/bash
+source $(dirname $0)/.include
+
+if ! $BASEDIR/bin/is-jekyll-running; then
+  echo "Jekyll isn't running"
+  exit 1
+fi
+
+kill -15 $(cat $PIDFILE)
+
+while $BASEDIR/bin/is-jekyll-running; do
+  sleep 0.5s
+done
+
+if ! $BASEDIR/bin/is-jekyll-running; then
+  echo "Jekyll server stopped"
+  rm $PIDFILE
+else
+  echo "Unable to stop Jekyll server"
+  exit 2
+fi
