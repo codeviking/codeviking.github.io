@@ -1,1 +1,1 @@
-exclude: ["bin", "run", "Gemfile", "Gemfile.lock", "README.md", "CNAME" ]
+exclude: ["dev-bin", "run", "Gemfile", "Gemfile.lock", "README.md", "CNAME" ]

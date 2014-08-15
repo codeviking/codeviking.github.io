@@ -1,9 +1,0 @@
-#!/bin/bash
-source $(dirname $0)/.include
-
-if $BASEDIR/bin/is-jekyll-running; then
-  $BASEDIR/bin/kill-jekyll
-  $BASEDIR/bin/start-jekyll
-else
-  $BASEDIR/bin/start-jekyll
-fi
