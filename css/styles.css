@@ -45,16 +45,7 @@ a:hover {
 
 #header {
   text-align: center;
-}
-
-#header,
-#heart {
   max-width: 480px;
-}
-
-#header,
-#main-content,
-#heart {
   margin: 80px auto;
 }
 
@@ -66,29 +57,12 @@ a:hover {
   margin: 0 0 20px;
 }
 
-#main-content {
-  max-width: 980px;
-}
-
-.content,
-.tooltip,
-#heart {
-  padding: 40px;
-}
-
-.content,
-.tooltip {
-  margin: 40px;
-}
-
-#heart,
-.tooltip {
-  background: #18222f;
-  border-radius: 20px;
-}
-
 .tooltip {
   position: relative;
+  padding: 40px;
+  margin: 40px;
+  background: #18222f;
+  border-radius: 20px;
 }
 
 .tooltip-pointer {
@@ -101,60 +75,6 @@ a:hover {
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
   border-bottom: 20px solid #18222f;
-}
-
-.hotspot {
-  margin: 80px 0;
-}
-
-.hotspot h2 {
-  padding-bottom: 20px;
-  border-bottom: 4px solid #18222f;
-}
-
-#heart {
-  text-align: center;
-  margin-bottom: 160px;
-}
-
-#heart h2 {
-  margin: 0;
-}
-
-#heart svg {
-  margin: 20px 0;
-  animation: beat 500ms infinite;
-  -webkit-animation: beat 1000ms infinite;
-}
-
-@keyframes beat {
-  0% {
-    transform: scale3d(1, 1, 1);
-    -webkit-transform: scale3d(1, 1, 1);
-  }
-  50% {
-    transform: scale3d(1.25, 1.25, 1.25);
-    -webkit-transform: scale3d(1.25, 1.25, 1.25);
-  }
-  100% {
-    transform: scale3d(1, 1, 1);
-    -webkit-transform: scale3d(1, 1, 1);
-  }
-}
-
-@-webkit-keyframes beat {
-  0% {
-    transform: scale3d(1, 1, 1);
-    -webkit-transform: scale3d(1, 1, 1);
-  }
-  50% {
-    transform: scale3d(1.25, 1.25, 1.25);
-    -webkit-transform: scale3d(1.25, 1.25, 1.25);
-  }
-  100% {
-    transform: scale3d(1, 1, 1);
-    -webkit-transform: scale3d(1, 1, 1);
-  }
 }
 
 @media screen and (max-width: 480px) {
