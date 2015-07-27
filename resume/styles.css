@@ -81,7 +81,7 @@ a[href]:hover {
 
 @media print {
   body {
-    font-size: 60%;
+    font-size: 50%;
   }
 
   .experience li {
