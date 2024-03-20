@@ -1,43 +1,41 @@
 html, body {
   padding: 0;
   margin: 0;
-}
-
-html {
   background: #fff;
 }
 
 body {
-  font-size: 125%;
+  font-size: 100%;
   font-family: "Noto Serif", serif;
-  max-width: 920px;
+  max-width: 80ch;
   padding: 40px;
   margin: 0 auto;
+  color: #0B1215;
 }
 
 h1, h2 {
-  margin: 0 0 0.75em;
+  margin: 0 0 1.5rem;
   font-weight: bold;
 }
 
 h1 {
-  font-size: 2.25em;
+  font-size: 2.25rem;
 }
 
 h2 {
-  font-size: 1.75em;
-  padding-bottom: 0.25em;
+  font-size: 2rem;
+  padding-bottom: 0.5rem;
   border-bottom: 1px solid #ccc;
 }
 
 h3 {
   margin: 0;
-  font-size: 1.25em;
+  font-size: 1.75rem;
 }
 
 h4 {
   margin: 0;
-  font-size: 1.15em;
+  font-size: 1.25rem;
 }
 
 address {
@@ -45,38 +43,70 @@ address {
 }
 
 address h1 {
-  margin: 0;
+  margin: 0 0 0.25rem;
 }
 
 section {
-  margin: 3em 0;
+  margin: 3rem 0;
 }
 
-a[href] {
-  color: #3798d6;
-  text-decoration: none;
+section > section {
+  margin: 2rem 0;
 }
 
-a[href]:hover {
-  color: #116194;
+p {
+  margin: 0.75rem 0;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ul li {
+  margin: 0.25rem 0;
+}
+
+ul li:first-child {
+  margin-top: 0;
+}
+
+ul li:last-child {
+  margin-bottom: 0;
 }
 
 .text-center {
   text-align: center;
 }
 
-.experience {
+.titles,
+.roles {
   list-style-type: none;
   padding: 0;
+  margin: 1.25rem 0;
+}
+
+.titles {
   margin: 0;
 }
 
-.experience li {
-  margin: 3em 0;
+.titles > li {
+  margin: 0.25rem 0;
 }
 
-.experience li:first-child {
+.roles {
+  margin-left: 1.25rem;
+}
+
+.roles > li {
+  margin: 1.25rem 0;
+}
+
+.roles > li:first-child {
   margin-top: 0;
+}
+
+.roles > li:last-child {
+  margin-bottom: 0;
 }
 
 @media print {
@@ -84,7 +114,7 @@ a[href]:hover {
     font-size: 50%;
   }
 
-  .experience li {
-    margin: 2.25em 0;
+  .roles > li {
+    margin: 2.25rem 0;
   }
 }
