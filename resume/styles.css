@@ -19,7 +19,7 @@ h1, h2 {
 }
 
 h1 {
-  font-size: 2.25rem;
+  font-size: 2.5rem;
 }
 
 h2 {
@@ -30,12 +30,12 @@ h2 {
 
 h3 {
   margin: 0;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
 }
 
 h4 {
   margin: 0;
-  font-size: 1.25rem;
+  font-size: 1.1667rem;
 }
 
 address {
@@ -111,10 +111,7 @@ ul li:last-child {
 
 @media print {
   body {
-    font-size: 50%;
-  }
-
-  .roles > li {
-    margin: 2.25rem 0;
+    font-size: 75%;
+    max-width: initial;
   }
 }
