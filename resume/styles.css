@@ -79,7 +79,8 @@ ul li:last-child {
 }
 
 .titles,
-.roles {
+.roles,
+.papers {
   list-style-type: none;
   padding: 0;
   margin: 1.25rem 0;
@@ -97,7 +98,8 @@ ul li:last-child {
   margin-left: 1.25rem;
 }
 
-.roles > li {
+.roles > li,
+.papers > li {
   margin: 1.25rem 0;
 }
 
