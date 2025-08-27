@@ -2,7 +2,9 @@
   <head>
     <title>Sam Skjonsberg's Resume</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,700" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
@@ -19,10 +21,11 @@
       </address>
     </header>
     <section>
-      <h2>Objective</h2>
+      <h2>Professional Summary</h2>
       <p>
-        Find a technical leadership role in an infrastructure/systems group that leverages my proven
-        ability to build highly effective teams and deliver innovative, quality software quickly.
+        Technical leader and systems engineer with 18 of experience building software across
+        the stack. Proven track record of growing engineering teams and building critical, state-of-the-art
+        infrastructure for machine learning research.
       </p>
     </section>
     <section>
@@ -35,26 +38,32 @@
             <h4>Senior Engineering Manager</h4>
             <em>January 2023 &#8212; Present</em>
             <p>
-              I lead a team responsible for internal systems and infrastructure. Our primary focus
-              is <a href="https://blog.allenai.org/beaker-ed617d5f4593">Beaker</a>, a custom job
-              management system used for running AI workloads on on-premise GPU servers.
+              I lead a team responsible for the internal systems and infrastructure that's used
+              to execute Ai2's machine learning research workloads. We maintain a collection of internal
+              tools, like <a href="https://blog.allenai.org/beaker-ed617d5f4593">Beaker</a>,
+              a custom job orchestrator and experimentation platform, and are also responsible for
+              configuring and operating thousands of GPUs in an on-premise datacenter.
             <p>
             <p>Key accomplishments:</p>
             <ul>
               <li>
-                Drove investments that led all teams to adopt Beaker; shifting the system's NPS
-                from -13 to 36 in 1 year and increasing the number of executed jobs by 3x.
+                Shifted Beaker's NPS score from -13 to 36 in 1 year while simultaneously scaling up
+                the number of workloads (3x) and compute footprint (7x).
               </li>
               <li>
-                Led the development of features that increased on-premise GPU occupancy to from 47% to 76%.
+                Drove organization wide adoption; today 100% of research teams use and depend on
+                Beaker for critical workloads.
               </li>
               <li>
-                Prioritized robustness and operational stability, leading to a 40% reduction in job failure
-                rates and 99.996% uptime.
+                Increased on-premise GPU occupancy from 47% to 90%+; reduced GPU downtime
+                because of non-hardware issues to < 5%.
               </li>
               <li>
-                Fostered a healthy, results-oriented culture while doubling the team size and on-premise
-                GPU footprint.
+                Prioritized robustness and stability, reducing job failure rates by 40% and
+                achieving 99.996% uptime.
+              </li>
+              <li>
+                Fostered a healthy, results-oriented culture while doubling the team size.
               </li>
             </ul>
           <li>
@@ -62,28 +71,28 @@
             <em>January 2019 &#8212; January 2023</em>
             <p>
               I was a senior individual contributor and technical leader on a team responsible for internal
-              systems and infrastructure. I drove the design and development of a number of critical
-              internal systems.
+              infrastructure where I drove the design and development of a number of critical
+              systems.
             </p>
             <p>Key accomplishments:</p>
             <ul>
               <li>
+                Assumed ownership of Beaker, led a build-vs-buy evaluation and established a roadmap
+                for making the product a widely adopted, successful platform.
+              </li>
+              <li>
                 Led the creation of <a href="https://blog.allenai.org/skiff-taming-the-stormy-seas-of-the-modern-web-a0371a3e9eae">Skiff</a>,
-                a centralized build pipeline and GKE cluster that made assembling, delivering and operating
-                web applications easier and faster.
-              <li>
-                Redesigned our on-premise server configuration management tooling, networking and
-                host management practices. This improved GPU availability, enabled more frequent updates
-                and drove consistency across our fleet.
+                and end-to-end solution that makes assembling, delivering and operating web applications easier and faster.
+                Skiff remains the solution for this at Ai2 despite minimal ongoing investment and maintenance
+                and is responsible for 200+ critical applications.
               </li>
               <li>
-                Assumed ownership of Beaker, AI2's custom job management system, and drove investments
-                that improved reliability, increased adoption and renewed organizational confidence in
-                the investment.
+                Rewrote our on-premise server configuration management tooling. This reduced
+                server downtime, improved stability by driving consistency across our fleet
+                and enabled us to deploy updates more frequently.
               </li>
               <li>
-                Promoted to manager because of the team's broad impact and my successes as a technical
-                leader.
+                Promoted to manager because of the team's broad impact and my successes as a technical leader.
               </li>
             </ul>
           </li>
@@ -136,31 +145,33 @@
                 </li>
             </ul>
             <p>
-              My initial focus was on building and maintaining a variety of web and CLI applications
-              that were key to various research efforts across the organization. I joined Semantic Scholar
-              shortly after it's inception as a founding engineer. I was responsible for the API,
-              front-end website and shared responsibility for the search cluster and other supporting
-              infrastructure.
+              I helped build, maintain and operate a varied collection of software in support
+              of research efforts across the organization. This included things like data annotation
+              applications, solutions for long running experiment tracking and service-oriented
+              architectures for assembling machine learning reasoning systems. I was also one of
+              founding engineers of the <a href="https://www.semanticscholar.org/">Semantic Scholar</a>
+              and helped build and scale the search cluster and web application.
             </p>
             <p>Key accomplishments:</p>
             <ul>
               <li>
                 Led the design, implementation and evolution of <a href="https://semanticscholar.org">Semantic Scholar's</a>
-                API, front-end and search cluster to serve 2 million+ monthly active users
-                and 30 million+ documents.
+                API, front-end and search cluster from 0 to 2 million+ monthly active users and 30 million+ documents.
               </li>
               <li>
-                Managed the hiring process for full-stack contributors, growing the team from inception
-                to 7+ engineers.
+                Helped grow the team from 1 to 7+ by leading hiring efforts and contributing to the evolution of
+                team-wide processes like code-reviews, post-incident-reviews and on-call cycles.
               </li>
               <li>
-                Responsible for the development and operations of a number of key research applications, including
-                a platform for evaluating and tracking the Aristo system's performance on key benchmarks.
+                Developed a number of small, key research applications like an Evaluation Framework
+                used to track the <a href="https://www.nytimes.com/2019/09/04/technology/artificial-intelligence-aristo-passed-test.html">Aristo system's</a> 
+                performance on key benchmarks.
               <li>
-                Drove web application development best practices and a common tool-chain across the organization.
+                Drove organization wide best practices for web and API development and established
+                a common tool chain for front-end applications.
               </li>
               <li>
-                Promoted to Principal because of my successes as an individual contributor and leader.
+                Promoted to Principal in recognition of my successes as an individual contributor and leader.
               </li>
             </ul>
           </li>
@@ -174,10 +185,10 @@
             <h4>Senior Front-End Engineer</h4>
             <em>June 2013 &#8212; August 2014</em>
             <p>
-              Yabbly was a a startup focused on online product discovery that later pivoted into a
-              job matching service known as Anthology. I worked across the stack to implement APIs,
-              front-end features and owned the web application's architecture. I departed in good standing
-              as the company ran out of funding.
+              Yabbly was a small startup focused on online product discovery that later pivoted into a
+              job matching service known as Anthology. I worked across the stack on a two person engineering
+              team to implement APIs and front-end features in support of rapid ideation as we tried
+              to find product-market fit.
             </p>
           </li>
         </ul>
@@ -190,10 +201,10 @@
             <h4>Senior Platform Engineer</h4>
             <em>March 2012 &#8212; March 2013</em>
             <p>
-              I was part of a small team that developed a next-generation in-car application platform and SDK.
-              The platform enabled developers to write applications for in-vehicle infotainment systems using
-              web technologies. I was responsible for designing and implementing key platform features like
-              focus management, application sandboxing and more.
+              I was part of a small team that developed a runtime and SDK for in-vehicle infotainment
+              applications. The platform allowed developers to write and distributed applications
+              using web technologies (JavaScript, HTML and CSS). I was responsible for designing and
+              implementing key platform features like focus management and application sandboxing.
           </li>
         </ul>
       </section>
@@ -236,9 +247,11 @@
             <h4>PHP / MySQL Developer</h4>
             <em>June 2007 &#8212; May 2008</em>
             <p>
-              I contributed to a custom ERP application that powered the customer facing sales portal
-              and was used internally for managing the server build and delivery process. I collaborated
-              across the organization to design and implement changes in support of the business.
+              I contributed to a custom ERP application that handled the sale, assembly and delivery
+              of high performance servers. The application powered the customer facing sales portal
+              and was used internally to manage the sales, accounting and server validation, assembly
+              and deliver process. I collaborated across the organization to design and implement
+              changes in support of the business.
             </p>
           </li>
         </ul>
@@ -254,6 +267,15 @@
     <section>
       <h2>Publications</h2>
       <ul class="papers">
+        <li>OLMo, T., Walsh, P., Soldaini, L., Groeneveld, D., Lo, K., Arora, S., Bhagia, A., Gu,
+          Y., Huang, S., Jordan, M., Lambert, N., Schwenk, D., Tafjord, O., Anderson, T., Atkinson,
+          D., Brahman, F., Clark, C., Dasigi, P., Dziri, N., Guerquin, M., Ivison, H., Koh, P.W.,
+          Liu, J., Malik, S., Merrill, W., Miranda, L.V., Morrison, J.D., Murray, T.C., Nam, C., Pyatkin, V.,
+          Rangapur, A., Schmitz, M., <strong>Skjonsberg, S.</strong>, Wadden, D., Wilhelm, C., Wilson, M., Zettlemoyer, L.S., 
+          Farhadi, A., Smith, N.A., & Hajishirzi, H. (2024).
+          <a href="https://www.semanticscholar.org/paper/2-OLMo-2-Furious-OLMo-Walsh/5ec5f934fbc82a28599732b473c7ae024fdc5b88">
+            2 OLMo 2 Furious
+          </a>. <em>ArXiv, abs/2501.00656</em>.
         <li>Deitke, M., Clark, C., Lee, S., Tripathi, R., Yang, Y., Park, J.S., Salehi, M., Muennighoff, N., Lo, K.,
           Soldaini, L., Lu, J., Anderson, T., Bransom, E., Ehsani, K., Ngo, H., Chen, Y., Patel, A., Yatskar, M.,
           Callison-Burch, C., Head, A., Hendrix, R., Bastani, F., VanderBilt, E., Lambert, N., Chou, Y., Chheda, A.,

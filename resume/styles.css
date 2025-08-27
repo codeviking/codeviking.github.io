@@ -6,7 +6,8 @@ html, body {
 
 body {
   font-size: 100%;
-  font-family: "Noto Serif", serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  line-height: 1.4;
   max-width: 80ch;
   padding: 40px;
   margin: 0 auto;
