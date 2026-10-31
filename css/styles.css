@@ -1,124 +1,45 @@
-* {
-  box-sizing: border-box;
-}
-
-
-html, body {
-  padding: 0;
-  margin: 0;
-}
-
-html {
-  background: #18222f linear-gradient(#18222f, #0c1219, #000101);
-  background: #18222f -webkit-linear-gradient(#18222f, #0c1219, #000101);
-  background: #18222f -ms-linear-gradient(#18222f, #0c1219, #000101);
-  background: #18222f -o-linear-gradient(#18222f, #0c1219, #000101);
-  background: #18222f -moz-linear-gradient(#18222f, #0c1219, #000101);
-  color: #fff;
-}
-
 html,
 body {
-  display: flex;
-  min-height: 100%;
+  padding: 0;
+  margin: 0;
+  background: #fff;
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  font-size: 125%; /* 20px */
-  font-family: 'Vollkorn', serif;
+  font-size: 100%;
+  font-family: "Libre Baskerville", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
   line-height: 1.4;
-  padding: 4rem;
-}
-
-img {
-  margin: 0 2rem;
-}
-
-h1 {
-  font-size: 3em;
-  line-height: 1;
-}
-
-h2 {
-  font-size: 1.5em;
+  max-width: 50ch;
+  padding: 40px;
+  margin: 0 auto;
+  color: #0b1215;
 }
 
 h1,
-h2,
+h2 {
+  margin: 0 0 1.5rem;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.875rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #ccc;
+}
+
 h3 {
-  font-weight: 400;
-  margin: 0 0 1rem;
-}
-
-h1.site-name {
-  font-family: 'Source Code Pro', monospace;
-}
-
-.inset {
-  margin: 2rem 0;
-  padding: 2rem;
-  background: rgba(0, 0, 0, 0.4);
-  box-shadow: inset 2px 2px 3px #000;
-  border-right: 1px solid rgba(255, 255, 255, 0.05);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-  border-radius: 0.5rem;
-}
-
-.inset *:last-child {
   margin: 0;
+  font-size: 1.5rem;
 }
 
-.inset,
-footer {
-  max-width: 800px;
-}
-
-footer {
-  font-size: 0.8em;
-  margin-top: auto;
-  padding: 1.5rem 1.5rem 0;
-}
-
-.footer-links {
-  display: flex;
-}
-
-footer p {
-  margin: 0.5rem;
-}
-
-a {
-  color: #fff;
-  cursor: pointer;
-}
-
-@media screen and (max-width: 600px) {
-  body {
-    padding: 1rem;
-    font-size: 100%;
-    min-height: 100%;
-  }
-
-  .inset {
-    padding: 1rem;
-  }
-
-  footer {
-    padding: 0.5rem;
-  }
-
-  .inset,
-  footer {
-    max-width: 100%;
-  }
-
-  img {
-    margin: 0 1rem;
-  }
-
-  .footer-links {
-    flex-wrap: wrap;
-  }
+h4 {
+  margin: 0;
+  font-size: 1.125rem;
 }
